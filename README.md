@@ -39,9 +39,7 @@ Menampilkan:
 
 Menampilkan:
 - Daftar sertifikat dalam bentuk card
-- Gambar sertifikat
-- Judul sertifikat
-- Instansi dan tahun
+- Gambar, Judul, Instansi, dan tahun sertifikat
 
 ---
 
@@ -55,14 +53,88 @@ Menampilkan:
 ---
 
 # 💻 Penjelasan Code Setiap Section / Fitur
-## 🔹 1. Navbar
-<img width="1302" height="210" alt="image" src="https://github.com/user-attachments/assets/699fae69-143a-4baa-8798-9a667fe0e575" />
+## 🔹 1. Head
+<img width="1200" height="309" alt="image" src="https://github.com/user-attachments/assets/63bf2a9a-a334-4b99-8cdb-c4b5b9bfbf05" />
 
-Penjelasan:
-- navbar-expand-lg digunakan agar navbar akan collapse menjadi hamburger menu pada layar kecil.
-- navbar-dark bg-black digunakan untuk mengatur warna teks dan background navbar.
-- fixed-top digunakan agar navbar tetap berada di atas saat halaman di-scroll.
-- container-fluid px-3 digunakan untuk mengatur jarak kiri dan kanan agar tidak terlalu mepet ke pinggir layar.
+Bagian head berfungsi untuk Mengatur identitas halaman, mengatur kompatibilitas device, memuat styling eksternal, menentukan font, mengatur SEO dasar. Contohnya pada bagian title disitu Mengatur identitas atau judul halaman menjadi "Portfolio | WIPEBRI". selanjutnya ada bagian mengimport library bootstrap, Google Font, dan CSS.
+
+---
+
+## 🔹 2. Vue App Container
+<img width="213" height="40" alt="image" src="https://github.com/user-attachments/assets/970f8842-910b-40d5-bacb-1fc7694eb678" />
+
+Bagian ini adalah wadah utama website. Vue.js bekerja di dalam div ini untuk mengatur data seperti nama, skill, pengalaman, dan sertifikat.
+
+<img width="1200" height="689" alt="image" src="https://github.com/user-attachments/assets/98bff875-b002-4365-b77e-6797055bd9ab" />
+
+Bagian inti dari aplikasi Vue  yang didalamnya terdapat semua informasi yang akan ditampilkan di website dengan memanggil menggunakan tanda {{ }} atau v-for.
+
+---
+
+## 🔹 3. Navbar
+<img width="800" height="195" alt="image" src="https://github.com/user-attachments/assets/e3a6b032-59d0-436d-9ff7-1c486f0f90a3" />
+
+Menampilkan menu navigasi di bagian atas. kemudian fixed-top digunakan agar navbar selalu menempel di atas walaupun halaman di-scroll. 
+
+<img width="843" height="381" alt="image" src="https://github.com/user-attachments/assets/62a3442a-1327-4d89-b15c-971c9cfb915d" />
+
+terdapat 3 menu Home, About, Certificates jika diklik, halaman akan langsung scroll ke bagian tersebut.
+
+---
+
+## 🔹 4. Hero Section
+
+<img width="919" height="403" alt="image" src="https://github.com/user-attachments/assets/e5e2025d-f7ca-41c1-a2ea-1e2ec02606a6" />
+
+bagian pertama yang dilihat pengujung web. di section ini menampilkan Nama karena adanya "{{ name }}", kemudian Role / Jabatan karena "{{ role }} dan "Tombol "About Me". Tanda "{{ }}" artinya data diambil dari Vue.js, bukan ditulis langsung di HTML.
+
+---
+
+## 🔹 5. About Me
+
+<img width="861" height="123" alt="image" src="https://github.com/user-attachments/assets/cb0424ee-347c-411f-af2b-94c349940254" />
+
+section adalah bagian khusus dalam halaman website. penggunaan id="about" supaya ketika klik “About” pads navbar web akan scroll ke bagian about me. d-flex align-items-center dari Bootstrap, berfungsi supaya isi bagian about me rata tengah secara vertikal.
+
+<img width="812" height="119" alt="image" src="https://github.com/user-attachments/assets/ca1962a3-3429-43e6-82f3-b2dc1a25bee1" />
+
+photo-wrapper digunakan untuk pembungkus foto, photo-box untuk efek background atau dekorasi  dan <img> menampilkan gambar dari folder asets
+
+<img width="677" height="290" alt="image" src="https://github.com/user-attachments/assets/177ef7ea-b9fc-4f39-a8e9-15f82f5c5f3b" />
+
+"col-md-6 order-2 order-md-1" digunakan agar kolom deskripsi, pengalaman dan skill terbagi Setengah layar di kiri pada tampilan desktop, sedangkan mobile deskripsi di tampilkan setelah foto. "{{ description }}" dan "{{ exp }}" adalah data dari Vue.js yang artinya teks deskripsi dan exp tidak ditulis langsung di HTML, tapi diambil dari bagian JavaScript.
+
+<img width="628" height="314" alt="image" src="https://github.com/user-attachments/assets/c8613dd3-6fec-42ab-b6bb-ca41e53b7a74" />
+
+"v-for="skill in skills"" digunakan agar Vue mengulang setiap skill yang ada di data dan menampilkan nama serta persentase skillnya. ":style="{ width: skill.level + '%' }"" digunakan untuk mengatur lebar perogres barnya
+
+----
+
+## 🔹 6. Certificates
+<img width="967" height="85" alt="image" src="https://github.com/user-attachments/assets/0635d2f4-963e-40b7-be9b-de5682f6ae1e" />
+
+membuat tampilan sertifikat berbentuk kartu menggunakan komponen Bootstrap. h-100 memastikan tinggi semua kartu sama, dan text-center membuat isi kartu rata tengah agar terlihat rapi. kemudian menampilkan gambar sertifikat. Tanda : pada :src menunjukkan bahwa sumber gambar diambil dari data Vue, yaitu cert.image. Artinya setiap sertifikat bisa memiliki gambar yang berbeda sesuai data yang dimasukkan.
+
+<img width="602" height="181" alt="image" src="https://github.com/user-attachments/assets/149c0398-7510-4987-9b03-4ba762bf04b0" />
+
+menampilkan judul sertifikat. Teks di dalam {{ }} diambil langsung dari data Vue, sehingga judul akan otomatis berubah sesuai isi array certificates. kemudian menampilkan nama organisasi dan tahun sertifikat. Sama seperti judul, data ini bersifat dinamis karena diambil dari JavaScript menggunakan Vue.
+
+---
+## 🔹 7. Footer
+<img width="687" height="111" alt="image" src="https://github.com/user-attachments/assets/0640385b-f5eb-40b5-89e8-80bb58ffbe05" />
+
+Menampilkan bagian paling bawah website yang biasanya berisi tanda hak cipta.
+
+---
+
+## 🔹 8. script
+<img width="1200" height="78" alt="image" src="https://github.com/user-attachments/assets/a24180a5-cbbc-4bd3-a5c4-ab8420fd1626" />
+
+memanggil file JavaScript dari Bootstrap agar fitur interaktif Bootstrap bisa berjalan dan Vue.js versi 3 yang membuat website menjadi dinamis.
+
+<img width="327" height="62" alt="image" src="https://github.com/user-attachments/assets/37276fca-fded-42a8-a92b-cde406e51c53" />
+
+mengambil fungsi createApp dari Vue.
 
 ---
 
