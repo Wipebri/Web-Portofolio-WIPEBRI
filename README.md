@@ -17,13 +17,8 @@ Website ini dibuat sebagai portfolio personal untuk menampilkan informasi mengen
 
 Menampilkan:
 - Nama lengkap
-- Role / Jabatan
-- Tombol navigasi menuju About Me
-
-Fitur:
-- Fullscreen layout
-- Centered content
-- Smooth scrolling ke section berikutnya
+- Role
+- Tombol menuju About Me
 
 ---
 
@@ -33,14 +28,9 @@ Fitur:
 
 Menampilkan:
 - Deskripsi singkat tentang diri
-- Foto profil dengan desain layered box
-- Daftar pengalaman (Experience)
+- Foto profil
+- Daftar pengalaman
 - Daftar skill dengan progress bar
-
-Fitur:
-- Layout 2 kolom (desktop)
-- Responsive layout (mobile foto tampil di atas)
-- Progress bar dinamis menggunakan Vue JS
 
 ---
 
@@ -53,11 +43,6 @@ Menampilkan:
 - Judul sertifikat
 - Instansi dan tahun
 
-Fitur:
-- Card layout menggunakan Bootstrap
-- Hover animation
-- Responsive grid system
-
 ---
 
 ## 4️⃣ Navbar
@@ -65,12 +50,8 @@ Menampilkan:
 - Logo / Brand
 - Menu navigasi (Home, About, Certificates)
 
-Fitur:
-- Fixed-top navbar
-- Smooth scrolling
-- Responsive collapse menu (mobile)
-
 ---
+
 ## 🛠️ Teknologi & Library
 * **Bootstrap 5.3.8**: Digunakan untuk tata letak (grid system) dan komponen UI yang responsif.
 * **Vue.js 3 (Global Build)**: Digunakan untuk manajemen data dinamis (Data Binding) pada bagian About, Skills, dan Certificates.
