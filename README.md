@@ -46,9 +46,23 @@ Menampilkan:
 ---
 
 ## 4️⃣ Navbar
+<img width="1200" height="300" alt="image" src="https://github.com/user-attachments/assets/5e735eb5-bedb-4da3-85ad-0cd8a9779237" />
+
 Menampilkan:
 - Logo / Brand
 - Menu navigasi (Home, About, Certificates)
+
+---
+
+# 💻 Penjelasan Code Setiap Section / Fitur
+## 🔹 1. Navbar
+<img width="1302" height="210" alt="image" src="https://github.com/user-attachments/assets/699fae69-143a-4baa-8798-9a667fe0e575" />
+
+Penjelasan:
+- navbar-expand-lg digunakan agar navbar akan collapse menjadi hamburger menu pada layar kecil.
+- navbar-dark bg-black digunakan untuk mengatur warna teks dan background navbar.
+- fixed-top digunakan agar navbar tetap berada di atas saat halaman di-scroll.
+- container-fluid px-3 digunakan untuk mengatur jarak kiri dan kanan agar tidak terlalu mepet ke pinggir layar.
 
 ---
 
