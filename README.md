@@ -12,7 +12,7 @@ Website ini dibuat sebagai portfolio personal untuk menampilkan informasi mengen
 
 # 🖥️ Tampilan Setiap Section / Fitur
 
-## 1️⃣ Hero Section
+## 🔹 1. Hero Section
 <img width="1200" height="675" alt="image" src="https://github.com/user-attachments/assets/e6fa53e6-5adb-4645-a5b6-c691f132fb64" />
 
 Menampilkan:
@@ -22,7 +22,7 @@ Menampilkan:
 
 ---
 
-## 2️⃣ About Me Section
+## 🔹 2. About Me Section
 <img width="1200" height="675" alt="image" src="https://github.com/user-attachments/assets/73117caf-6643-4a56-a3b5-ffede31a61eb" />
 
 
@@ -34,7 +34,7 @@ Menampilkan:
 
 ---
 
-## 3️⃣ Certificates Section
+## 🔹 3. Certificates Section
 <img width="1200" height="675" alt="image" src="https://github.com/user-attachments/assets/c2f007ce-0521-4c28-bba0-5333e5a02243" />
 
 Menampilkan:
@@ -43,7 +43,7 @@ Menampilkan:
 
 ---
 
-## 4️⃣ Navbar
+## 🔹 4. Navbar
 <img width="1200" height="300" alt="image" src="https://github.com/user-attachments/assets/5e735eb5-bedb-4da3-85ad-0cd8a9779237" />
 
 Menampilkan:
