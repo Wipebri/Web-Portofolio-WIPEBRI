@@ -71,3 +71,8 @@ Fitur:
 - Responsive collapse menu (mobile)
 
 ---
+## 🛠️ Teknologi & Library
+* **Bootstrap 5.3.8**: Digunakan untuk tata letak (grid system) dan komponen UI yang responsif.
+* **Vue.js 3 (Global Build)**: Digunakan untuk manajemen data dinamis (Data Binding) pada bagian About, Skills, dan Certificates.
+* **Google Fonts**: Menggunakan font *Poppins* untuk tipografi yang modern.
+* **CSS3 Custom**: Styling tambahan untuk animasi dan dekorasi elemen (seperti photo box).
