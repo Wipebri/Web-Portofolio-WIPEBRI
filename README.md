@@ -1,5 +1,7 @@
 # Web-Portofolio-WIPEBRI
 
+DWI PEBRIYANTO PRADANA | 2409116012 | SISTEM INFORMASI A 2024
+
 Website portfolio pribadi yang menampilkan profil, pengalaman, kemampuan, serta sertifikat yang dimiliki.
 
 ---
@@ -8,7 +10,7 @@ Website portfolio pribadi yang menampilkan profil, pengalaman, kemampuan, serta 
 
 Website ini dibuat sebagai portfolio personal untuk menampilkan informasi mengenai profil diri, pengalaman organisasi, skill, serta sertifikat yang telah diperoleh.
 
-Link Website Porto: https://wipebri.github.io/Web-Portofolio-WIPEBRI/
+Link Website Portofolio: https://wipebri.github.io/Web-Portofolio-WIPEBRI/
 
 ---
 
