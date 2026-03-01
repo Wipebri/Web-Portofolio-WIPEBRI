@@ -86,7 +86,7 @@ section {
 .about-photo {
     position: absolute;
     bottom: 0;
-    left: 52%;
+    left: 50%;
     transform: translateX(-50%);
     max-height: 100%;
     width: auto;
@@ -121,5 +121,6 @@ section {
     scroll-margin-top: 20px;
 
 }
+
 
 
