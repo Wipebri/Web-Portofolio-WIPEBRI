@@ -51,8 +51,8 @@ Menampilkan:
 <img width="1200" height="300" alt="image" src="https://github.com/user-attachments/assets/5e735eb5-bedb-4da3-85ad-0cd8a9779237" />
 
 Menampilkan:
-- Logo / Brand
-- Menu navigasi (Home, About, Certificates)
+- Logo WIPEBRI
+- Menu navigasi Home, About, dan Certificates
 
 ---
 
@@ -143,7 +143,7 @@ mengambil fungsi createApp dari Vue.
 ---
 
 ## 🛠️ Teknologi & Library
-* **Bootstrap 5.3.8**: Digunakan untuk tata letak (grid system) dan komponen UI yang responsif.
-* **Vue.js 3 (Global Build)**: Digunakan untuk manajemen data dinamis (Data Binding) pada bagian About, Skills, dan Certificates.
+* **Bootstrap 5.3.8**: Digunakan untuk tata letak dan komponen UI yang responsif.
+* **Vue.js 3 (Global Build)**: Digunakan untuk manajemen data dinamis pada bagian About, Skills, dan Certificates.
 * **Google Fonts**: Menggunakan font *Poppins* untuk tipografi yang modern.
-* **CSS3 Custom**: Styling tambahan untuk animasi dan dekorasi elemen (seperti photo box).
+* **CSS3 Custom**: Styling tambahan untuk animasi dan dekorasi elemen.
