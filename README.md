@@ -115,7 +115,7 @@ photo-wrapper digunakan untuk pembungkus foto, photo-box untuk efek background a
 ----
 
 ## 🔹 6. Certificates
-<img width="967" height="85" alt="image" src="https://github.com/user-attachments/assets/0635d2f4-963e-40b7-be9b-de5682f6ae1e" />
+<img width="985" height="73" alt="image" src="https://github.com/user-attachments/assets/dc9a6af6-394e-4eb2-9bf7-d6699acda5c6" />
 
 membuat tampilan sertifikat berbentuk kartu menggunakan komponen Bootstrap. h-100 memastikan tinggi semua kartu sama, dan text-center membuat isi kartu rata tengah agar terlihat rapi. kemudian menampilkan gambar sertifikat. Tanda : pada :src menunjukkan bahwa sumber gambar diambil dari data Vue, yaitu cert.image. Artinya setiap sertifikat bisa memiliki gambar yang berbeda sesuai data yang dimasukkan.
 
