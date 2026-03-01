@@ -5,12 +5,12 @@ body {
     padding-top: 56px;
 }
 
-.container {
-    overflow: hidden;
-}
-
 section {
     scroll-margin-top: 56px;
+}
+
+.container {
+    overflow: hidden;
 }
 
 /*Hero*/
@@ -70,9 +70,9 @@ section {
 .photo-wrapper {
     position: relative;
     width: 100%;
-    max-width: 450px;
+    width: 360px;
+    height: 460px;
     margin: 0 auto;
-    aspect-ratio: 3 / 4;
 }
 
 .photo-box {
@@ -82,14 +82,15 @@ section {
     height: 70%;
     background-color: #2b2b2f;
     border-radius: 25px;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
 }
 
 .about-photo {
     position: absolute;
     bottom: 0;
-    left: 50%;
+    left: 52%;
     transform: translateX(-50%);
     max-height: 100%;
     width: auto;
@@ -124,12 +125,3 @@ section {
     scroll-margin-top: 20px;
 
 }
-
-
-
-
-
-
-
-
-
