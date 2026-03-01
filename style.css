@@ -70,7 +70,7 @@ section {
 .photo-wrapper {
     position: relative;
     width: 100%;
-    max-width: 340px;
+    max-width: 450px;
     margin: 0 auto;
     aspect-ratio: 3 / 4;
 }
@@ -124,6 +124,7 @@ section {
     scroll-margin-top: 20px;
 
 }
+
 
 
 
