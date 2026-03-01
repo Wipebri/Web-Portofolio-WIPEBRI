@@ -69,7 +69,7 @@ Bagian head berfungsi untuk Mengatur identitas halaman, mengatur kompatibilitas 
 
 Bagian ini adalah wadah utama website. Vue.js bekerja di dalam div ini untuk mengatur data seperti nama, skill, pengalaman, dan sertifikat.
 
-<img width="1200" height="689" alt="image" src="https://github.com/user-attachments/assets/98bff875-b002-4365-b77e-6797055bd9ab" />
+<img width="1200" height="715" alt="image" src="https://github.com/user-attachments/assets/ea6e92c4-e41b-447c-9547-7afe4bca1752" />
 
 Bagian inti dari aplikasi Vue  yang didalamnya terdapat semua informasi yang akan ditampilkan di website dengan memanggil menggunakan tanda {{ }} atau v-for.
 
