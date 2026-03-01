@@ -5,6 +5,10 @@ body {
     padding-top: 56px;
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 section {
     scroll-margin-top: 56px;
 }
@@ -118,4 +122,5 @@ section {
 
 #certificates {
     scroll-margin-top: 20px;
+
 }
