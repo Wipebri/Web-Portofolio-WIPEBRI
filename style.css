@@ -66,9 +66,9 @@ section {
 .photo-wrapper {
     position: relative;
     width: 100%;
-    width: 360px;
-    height: 460px;
+    width: 320px;
     margin: 0 auto;
+    aspect-ratio: 3 / 4;
 }
 
 .photo-box {
@@ -121,4 +121,5 @@ section {
     scroll-margin-top: 20px;
 
 }
+
 
