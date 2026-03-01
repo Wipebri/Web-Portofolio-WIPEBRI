@@ -15,7 +15,7 @@
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
-        <div class="container">
+        <div class="container-fluid px-3">
             <a class="navbar-brand fw-bold" href="#">WIPEBRI</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -108,7 +108,7 @@
                 <div class="col-md-4 col-sm-6" v-for="cert in certificates">
 
                     <div class="card certificate-card h-100 text-center">
-                        <img :src="cert.image" class="card-img-top certificate-img"alt="cert.title">
+                        <img :src="cert.image" class="card-img-top certificate-img" :alt="cert.title">
 
                         <div class="card-body">
                             <h5 class="card-title">{{ cert.title }}</h5>
@@ -167,3 +167,4 @@ createApp({
 </body>
 
 </html>
+
